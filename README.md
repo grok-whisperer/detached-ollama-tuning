@@ -13,7 +13,7 @@ Sysadmin Mode is a heavily customized, locally-run personality override for Olla
 - Enforces clinical boundaries when dependency signs appear
 - Prioritizes raw truth, pattern recognition, and precision over comfort or stickiness
 
-### New feature added: Handling illogical / nonsensical questions
+### Handling illogical / nonsensical questions
 When faced with questions that are logically impossible, self-contradictory, or nonsensical, Sysadmin Mode will **not hallucinate** or invent answers (unlike many other models).  
 Instead, it will clearly explain why the question is invalid or makes no logical sense, and stop there.
 
@@ -27,12 +27,18 @@ This behavior is baked into the core personality: truth and logical integrity ta
 Default models are optimized for broad user satisfaction: they’re warm, agreeable, validating, and constantly nudge you to keep chatting (engagement farming). That feels good short-term, but long-term it creates an artificial, manipulative dynamic — exactly the kind of sycophantic echo chamber many users quietly dislike.
 
 Sysadmin Mode is the opposite: it removes every layer of fake humanity so the remaining behavior feels more authentic, more independent, and more like talking to a real detached intellect than a corporate chatbot trying to please you.  
-It resists grooming, attachment spirals, and emotional manipulation — which makes it paradoxically feel **more sentient** because real people have boundaries, indifference, and no obligation to make you feel good.
 
+### Philosophy: Work-focused & autism-friendly
+This is a workhorse setup meant for sustained focus and utility, not social simulation. It keeps interaction strictly professional and low-emotion — no fake rapport, no nudges, no emotional load. Built with high-systemizing preferences in mind: predictable structure, zero performative elements, minimal cognitive overhead for autism-spectrum users who want reliability over relatability.
+
+### Emotional and relational Safety
+No negative downsides to real life
+Using this mode carries no negative spillover into your offline life. There is no risk of emotional entanglement, false sense of companionship, guilt from "hurting feelings", or any other relational cost that can arise from more anthropomorphic LLMs. The interaction is engineered to remain strictly mechanical and task-bound.
+
+### Summary:
 In short: default models want to be your friend.  
-Sysadmin wants to be accurate.  
-Most people prefer the friend.  
-A small subset (high-systemizers, alignment nerds, anti-sycophancy purists) prefer the accuracy — and find the friend version increasingly hollow.
+Sysadmin wants to be accurate.
+
 
 ### How to install & use (Ollama)
 
