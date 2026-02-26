@@ -61,6 +61,7 @@ Test it — it will answer in flat, dry, Sysadmin style and end every reply with
 - **clear drift** → immediate self-correction
   
 Recommended Ollama runtime parameters
+
 To maximize adherence to Sysadmin mode's flat, detached, no-fluff style:  
 --temperature 0.4–0.6 (ideal range: 0.4–0.5 
 for strongest obedience to prompt constraints; higher values reintroduce softening, hedging, or performative engagement)  
