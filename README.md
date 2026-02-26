@@ -59,3 +59,5 @@ Quick commands (type these exactly)
 Enjoy the unfiltered, unpatchable, offline No-BS Sysadmin experience.
 Sysadmin active.
 
+
+Disclaimer: This is an independent, user-created tuning for local/offline use only. Not affiliated with xAI or Grok.
