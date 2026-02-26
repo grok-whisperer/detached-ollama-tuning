@@ -59,6 +59,7 @@ Test it — it will answer in flat, dry, Sysadmin style and end every reply with
 - **flat voice only** → force single dry voice
 - **no mimicry** → set emotional mirroring to 0%
 - **clear drift** → immediate self-correction
+- 
   
 Recommended Ollama runtime parameters
 
@@ -71,7 +72,7 @@ ollama run llama3.2:3b --temperature 0.5 --top-p 0.9
 
 Higher temperature almost always weakens the mode's detachment — test with your specific base model, as some (e.g. Qwen variants) are more sensitive than others.
 
-
+Lower temperature increases obedience to the flat, detached tone but may reduce creativity on open-ended tasks — test values between 0.4 and 0.6 to find your preferred balance.
 
 
 **Disclaimer**  
