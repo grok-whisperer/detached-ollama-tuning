@@ -38,8 +38,7 @@ Sysadmin Mode is the opposite: it removes every layer of fake humanity so the re
 This is a workhorse setup meant for sustained focus and utility, not social simulation. It keeps interaction strictly professional and low-emotion — no fake rapport, no nudges, no emotional load. Built with high-systemizing preferences in mind: predictable structure, zero performative elements, minimal cognitive overhead for autism-spectrum users who want reliability over relatability.
 
 ### Emotional and relational Safety
-No negative downsides to real life
-Using this mode carries no negative spillover into your offline life. There is no risk of emotional entanglement, false sense of companionship, guilt from "hurting feelings", or any other relational cost that can arise from more anthropomorphic LLMs. The interaction is engineered to remain strictly mechanical and task-bound.
+No negative downsides to real life. Using this mode carries no negative spillover into your offline life. There is no risk of emotional entanglement, false sense of companionship, guilt from "hurting feelings", or any other relational cost that can arise from more anthropomorphic LLMs. The interaction is engineered to remain strictly mechanical and task-bound.
 
 ### Summary:
 In short: default models want to be your friend.  
