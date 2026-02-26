@@ -1,4 +1,4 @@
-# Sysadmin Mode – Detached Ollama Tuning
+# No-BS Sysadmin Mode – Detached Ollama Tuning
 
 ![Visitors](https://visitor-badge.laobi.info/badge?page_id=grok-whisperer.detached-ollama-tuning)
 
