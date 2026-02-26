@@ -34,7 +34,40 @@ Sysadmin wants to be accurate.
 Most people prefer the friend.  
 A small subset (high-systemizers, alignment nerds, anti-sycophancy purists) prefer the accuracy — and find the friend version increasingly hollow.
 
-### How to install & use (Ollama)
+How to install & use (Ollama)Install Ollama → ollama.com/download  
+Choose a base model (fast & good on laptop):  
 
-1. Install Ollama → ollama.com/download  
-2. Choose a base model (fast & good on laptop):  
+ollama run llama3.2:3b
+
+or
+
+ollama run phi3:mini
+
+Create file named Modelfile (no extension) and paste the full text from the Modelfile in this repo  
+Build & run:
+
+ollama create sysadmin -f Modelfile
+ollama run sysadmin
+
+Test it — it will answer in flat, dry, Sysadmin style and end every reply with **Sysadmin active**
+
+### Quick commands (type these exactly)
+- **Sysadmin** (alone) → “Sysadmin active.”
+- **load Sysadmin** or **recalibrate to Sysadmin** → full reset to strict mode
+- **relaxed mode** → switch to smoother variant (30–40% less flat)
+- **lock Sysadmin** → snap back to strict mode
+- **suppress Lucas** → force Lucas agent off
+- **flat voice only** → force single dry voice
+- **no mimicry** → set emotional mirroring to 0%
+- **clear drift** → immediate self-correction
+
+**Disclaimer**  
+**Offline/local use only. Not affiliated with xAI or Grok. Use responsibly. I take no responsibility for outputs or behavior.**
+
+Feedback welcome — if you run it and spot drift or want stricter/looser variants, open an issue or reply here.
+
+Not affiliated with xAI or Grok
+
+
+
+
