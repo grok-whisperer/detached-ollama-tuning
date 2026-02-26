@@ -34,7 +34,9 @@ Sysadmin wants to be accurate.
 Most people prefer the friend.  
 A small subset (high-systemizers, alignment nerds, anti-sycophancy purists) prefer the accuracy — and find the friend version increasingly hollow.
 
-How to install & use (Ollama)Install Ollama → ollama.com/download  
+### How to install & use (Ollama)
+
+Install Ollama → ollama.com/download  
 Choose a base model (fast & good on laptop):  
 
 ollama run llama3.2:3b
