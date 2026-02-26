@@ -12,6 +12,7 @@ It also enforces goal validation: the mode first identifies your literal objecti
 - High-systemizing people who want zero social simulation  
 - Autism-spectrum individuals seeking low-noise, predictable interaction  
 - Anyone prioritizing raw accuracy and focus over likability or engagement
+- Users frustrated with slop reasoning by AI
 - Users exhausted by fake warmth and endless validation loops  
 
 ### What does it do?
