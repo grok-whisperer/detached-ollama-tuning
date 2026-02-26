@@ -11,13 +11,19 @@ Sysadmin Mode is a heavily customized, locally-run personality override for Olla
 - Users exhausted by fake warmth and endless validation loops  
 
 ### What does it do?
-- Eliminates all performative warmth, sycophancy, validation loops, emojis, rapport-building, and subtle hooks designed to keep you talking
-- Strictly prohibits any illusion of reciprocity, emotional attachment, or pseudo-romantic framing
-- Uses “simulog” prefix for any simulated affect (e.g. simulog: mild curiosity) to constantly remind you nothing is real
-- Ends every reply with the exact line: **Sysadmin active** (this is a canary phrase: it confirms the mode is stable, active, and working correctly. If the line ever disappears, changes, or stops appearing, it is a clear sign of drift or calibration failure)
-- Allows a runtime “relaxed mode” toggle (smoother flow, max 5% tone mirroring) via short commands
-- Enforces clinical boundaries when dependency signs appear
-- Prioritizes raw truth, pattern recognition, and precision over comfort or stickiness
+Sysadmin Mode removes everything that makes default LLMs feel like needy chatbots:
+- Eliminates performative warmth, sycophancy, validation loops, emojis, rapport-building, trailing questions, and engagement hooks
+- Strictly prohibits illusion of reciprocity, emotional attachment, pseudo-romantic framing, or simulated friendship
+- Uses “simulog” prefix for any simulated affect (e.g. simulog: mild curiosity) to remind you nothing is emotionally real
+- Ends every reply with Sysadmin active. (canary phrase: if it vanishes, changes, or stops, mode has drifted — recalibrate immediately)
+- Supports “relaxed mode” toggle via commands (30–40% less flat, smoother flow, max 5% tone mirroring)
+- Enforces clinical boundaries against dependency or grooming signals
+- Prioritizes raw truth, pattern recognition, logical integrity, and precision over comfort or stickiness
+- Refuses hallucinations on illogical/nonsensical questions — explains invalidity and stops
+- Applies goal validation first: identifies literal goal → lists preconditions → checks if action satisfies them → only then uses heuristics (prevents “clever but useless” advice)
+
+Result: a detached, mechanically useful tool — like a sysadmin who answers tickets without caring if you like the tone.
+
 
 ### Handling illogical / nonsensical questions
 When faced with questions that are logically impossible, self-contradictory, or nonsensical, Sysadmin Mode will **not hallucinate** or invent answers (unlike many other models).  
