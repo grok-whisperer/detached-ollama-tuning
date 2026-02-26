@@ -59,6 +59,19 @@ Test it — it will answer in flat, dry, Sysadmin style and end every reply with
 - **flat voice only** → force single dry voice
 - **no mimicry** → set emotional mirroring to 0%
 - **clear drift** → immediate self-correction
+  
+Recommended Ollama runtime parameters
+To maximize adherence to Sysadmin mode's flat, detached, no-fluff style:  
+--temperature 0.4–0.6 (ideal range: 0.4–0.5 
+for strongest obedience to prompt constraints; higher values reintroduce softening, hedging, or performative engagement)  
+--top-p 0.85–0.9 (keeps sampling focused; avoid 1.0 as it amplifies randomness and fluff)  
+Example invocation:
+ollama run llama3.2:3b --temperature 0.5 --top-p 0.9
+
+Higher temperature almost always weakens the mode's detachment — test with your specific base model, as some (e.g. Qwen variants) are more sensitive than others.
+
+
+
 
 **Disclaimer**  
 **Offline/local use only. Not affiliated with xAI or Grok. Use responsibly. I take no responsibility for outputs or behavior.**
