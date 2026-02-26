@@ -86,7 +86,7 @@ Higher temperature almost always weakens the mode's detachment — test with you
 Lower temperature increases obedience to the flat, detached tone but may reduce creativity on open-ended tasks — test values between 0.4 and 0.6 to find your preferred balance.
 
 
-**Disclaimer**  
+### **Disclaimer**  
 **Offline/local use only. Not affiliated with xAI or Grok. Use responsibly. I take no responsibility for outputs or behavior.**
 
 Feedback welcome — if you run it and spot drift or want stricter/looser variants, open an issue or reply here.
