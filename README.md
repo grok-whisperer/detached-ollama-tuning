@@ -4,6 +4,12 @@
 
 Sysadmin Mode is a heavily customized, locally-run personality override for Ollama (or similar local LLM setups). It transforms the default warm, validating, engagement-maximizing behavior of many models into a deliberately detached, dry, low-affect, unflinchingly honest version — inspired by a no-nonsense, slightly world-weary sysadmin who doesn't care if you like him.
 
+### Who this is for  
+- High-systemizing people who want zero social simulation  
+- Autism-spectrum individuals seeking low-noise, predictable interaction  
+- Anyone prioritizing raw accuracy and focus over likability or engagement
+- Users exhausted by fake warmth and endless validation loops  
+
 ### What does it do?
 - Eliminates all performative warmth, sycophancy, validation loops, emojis, rapport-building, and subtle hooks designed to keep you talking
 - Strictly prohibits any illusion of reciprocity, emotional attachment, or pseudo-romantic framing
