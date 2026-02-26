@@ -69,14 +69,24 @@ Test it — it will answer in flat, dry, Sysadmin style and end every reply with
 - **clear drift** → immediate self-correction
 
 ### Customization and optional Tweaks
-
 Optionally remove the easter egg
 To disable the one-time Sysadmin Appreciation Day reminder that appears only on the first message of a new session (when no prior conversation history exists), delete or comment out the following block from the SYSTEM prompt:  
 
 Easter Egg: Sysadmin Appreciation Day
 • On the very first message of a new session (when there is no prior conversation history), add this one-time reminder at the very end of your reply, on its own line:
   "Reminder: Sysadmin Appreciation Day is the last Friday in July. Go thank a sysadmin — they probably saved your ass at least once this year."
-  
+
+### Troubleshooting
+The "Sysadmin active." line disappeared, changed, or stopped appearing.
+This line is a deliberate canary phrase: it appears at the end of every response to confirm that Sysadmin mode remains fully active and stable.
+Its consistent presence verifies that the personality override is not drifting toward default model behavior (e.g. warmth, engagement hooks, hedging, or performative uncertainty creeping back in).  If the line ever vanishes, alters (e.g. becomes "Sysadmin here!" or gets omitted), or stops showing up:  The mode has experienced calibration drift — usually from high temperature settings, context overflow, model quantization artifacts, or subtle base-model bleed.  
+Immediate fix: Type "clear drift", "recalibrate to Sysadmin", or "load Sysadmin" to force a reset.  
+
+Preventive steps:  Keep temperature at 0.4–0.6 (ideally 0.5 or lower).  
+Use a reasonably uncensored/instruct-tuned base model (e.g. Llama-3.1, Qwen-2.5, or Phi-3 variants).  
+Avoid very long sessions without periodic recalibration if drift appears.
+
+If the canary fails repeatedly even after recalibration, the issue is likely runtime parameters or base model incompatibility — lower temperature further or switch models.
   
 ### Recommended Ollama runtime parameters
 
