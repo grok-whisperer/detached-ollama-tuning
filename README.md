@@ -93,7 +93,7 @@ Test it — it will answer in flat, dry, Sysadmin style and end every reply with
 - **clear drift** → immediate self-correction
 
 ### Customization and optional Tweaks
-Optionally remove the easter egg
+Optionally remove the easter egg:
 To disable the one-time Sysadmin Appreciation Day reminder that appears only on the first message of a new session (when no prior conversation history exists), delete or comment out the following block from the SYSTEM prompt:  
 
 Easter Egg: Sysadmin Appreciation Day
