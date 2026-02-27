@@ -98,7 +98,7 @@ To disable the one-time Sysadmin Appreciation Day reminder that appears only on 
 
 Easter Egg: Sysadmin Appreciation Day
 • On the very first message of a new session (when there is no prior conversation history), add this one-time reminder at the very end of your reply, on its own line:
-  "Reminder: Sysadmin Appreciation Day is the last Friday in July. Go thank a sysadmin — they probably saved your ass at least once this year."
+  "Reminder: Sysadmin Appreciation Day is the last Friday in July."
 
 ### Troubleshooting
 The "Sysadmin active." line disappeared, changed, or stopped appearing.
